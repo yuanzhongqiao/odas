@@ -1,33 +1,26 @@
-ODAS 
-====
-
-ODAS stands for Open embeddeD Audition System. This is a library dedicated to perform sound source localization, tracking, separation and post-filtering. ODAS is coded entirely in C, for more portability, and is optimized to run easily on low-cost embedded hardware. ODAS is free and open source.
-
-The [ODAS wiki](https://github.com/introlab/odas/wiki) describes how to build and run the software.
-
-ROS: Please visite the [odas_ros project](https://github.com/introlab/odas_ros).
-
-[![ODAS Demonstration](https://img.youtube.com/vi/n7y2rLAnd5I/0.jpg)](https://youtu.be/n7y2rLAnd5I)
-
-# License
-
-ODAS is provided with the [MIT](LICENSE) license.
-
-# Graphical User Interface (GUI) for Data Visualization
-
-Please have a look at the [odas_web](https://github.com/introlab/odas_web) project.
-![GUI](https://github.com/introlab/odas_web/blob/master/screenshots/live_data.png)
-
-
-# Open Source Hardware from IntRoLab
-
-* [8SoundsUSB](https://sourceforge.net/projects/eightsoundsusb/), 8 inputs, USB powered, configurable microphone array.
-* [16SoundsUSB](https://github.com/introlab/16SoundsUSB), 16 inputs, USB powered, configurable microphone array.
-
-# Papers
-
-You can find more information about the methods implemented in ODAS in these papers:
-
-* F. Grondin, D. Létourneau, C. Godin, J.-S. Lauzon, J. Vincent, S. Michaud, S. Faucher, F. Michaud, [ODAS: Open embeddeD Audition System](https://www.frontiersin.org/article/10.3389/frobt.2022.854444), Frontiers in Robotics and AI, Volume 9, 2022 
-
-* F. Grondin and F. Michaud, [Lightweight and Optimized Sound Source Localization and Tracking Methods for Opened and Closed Microphone Array Configurations](https://arxiv.org/pdf/1812.00115), Robotics and Autonomous Systems, 2019 
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常微分方程</font></font></h1><a id="user-content-odas" class="anchor" aria-label="永久链接：ODAS" href="#odas"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ODAS 代表开放式嵌入式试镜系统。</font><font style="vertical-align: inherit;">这是一个专门用于执行声源定位、跟踪、分离和后滤波的库。</font><font style="vertical-align: inherit;">ODAS 完全用 C 语言编码，具有更高的可移植性，并经过优化，可以在低成本嵌入式硬件上轻松运行。</font><font style="vertical-align: inherit;">ODAS 是免费且开源的。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ODAS </font></font><a href="https://github.com/introlab/odas/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述了如何构建和运行该软件。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ROS：请访问</font></font><a href="https://github.com/introlab/odas_ros"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">odas_ros 项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><a href="https://youtu.be/n7y2rLAnd5I" rel="nofollow"><img src="https://camo.githubusercontent.com/2fa04e410e7a076cc8299a3fe6cbbe481d084096610c53892036228392653d96/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6e377932724c416e6435492f302e6a7067" alt="ODAS示范" data-canonical-src="https://img.youtube.com/vi/n7y2rLAnd5I/0.jpg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h1><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ODAS 是通过</font></font><a href="/introlab/odas/blob/master/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MIT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可证提供的。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于数据可视化的图形用户界面 (GUI)</font></font></h1><a id="user-content-graphical-user-interface-gui-for-data-visualization" class="anchor" aria-label="永久链接：用于数据可视化的图形用户界面 (GUI)" href="#graphical-user-interface-gui-for-data-visualization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请查看</font></font><a href="https://github.com/introlab/odas_web"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">odas_web</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目。
+</font></font><a target="_blank" rel="noopener noreferrer" href="https://github.com/introlab/odas_web/blob/master/screenshots/live_data.png"><img src="https://github.com/introlab/odas_web/raw/master/screenshots/live_data.png" alt="GUI" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IntRoLab 的开源硬件</font></font></h1><a id="user-content-open-source-hardware-from-introlab" class="anchor" aria-label="永久链接：IntRoLab 的开源硬件" href="#open-source-hardware-from-introlab"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://sourceforge.net/projects/eightsoundsusb/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8SoundsUSB</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，8 个输入，USB 供电，可配置麦克风阵列。</font></font></li>
+<li><a href="https://github.com/introlab/16SoundsUSB"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16SoundsUSB</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，16 个输入，USB 供电，可配置麦克风阵列。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font></font></h1><a id="user-content-papers" class="anchor" aria-label="永久链接：论文" href="#papers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在以下论文中找到有关 ODAS 中实现的方法的更多信息：</font></font></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">F. Grondin、D. Létourneau、C. Godin、J.-S. Lauzon、J. Vincent、S. Michaud、S. Faucher、F. Michaud、</font></font><a href="https://www.frontiersin.org/article/10.3389/frobt.2022.854444" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ODAS：开放嵌入式试镜系统</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，机器人和人工智能前沿，第 9 卷, 2022</font></font></p>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">F. Grondin 和 F. Michaud，</font></font><a href="https://arxiv.org/pdf/1812.00115" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放式和封闭式麦克风阵列配置的轻量级和优化声源定位和跟踪方法</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，机器人和自治系统，2019 年</font></font></p>
+</li>
+</ul>
+</article></div>
